@@ -25,12 +25,12 @@ const Projects = () => {
                   <ul className="flex justify-between items-center underline">
                     <li className="flex-1">
                       <a href={pro.pLink} className="underline">
-                        <h2 className="text-base font-semibold">{pro.name}</h2>
+                        <h2 className="text-sm font-semibold">{pro.name}</h2>
                       </a>
                     </li>
                     <li className="flex-none">
                       <a href={pro.gLink} className="underline">
-                        <span className="text-base font-semibold">
+                        <span className="text-sm font-semibold">
                           {pro.github}
                         </span>
                       </a>

@@ -28,7 +28,7 @@ const Skills = () => {
                         <li key={skillIndex} className="">
                           {skill.type ? (
                             <div>
-                              <span className="font-semibold">
+                              <span className="font-semibold text-sm">
                                 {skill.type}:{" "}
                               </span>
                               <span className="text-sm">

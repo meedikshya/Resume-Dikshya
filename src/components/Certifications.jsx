@@ -19,7 +19,10 @@ const Certifications = () => {
               item.certifications.length > 0 &&
               item.certifications.map((cert, certIndex) => (
                 <a href={cert.cLink} className="underline">
-                  <div key={certIndex} className=" text-justify underline">
+                  <div
+                    key={certIndex}
+                    className=" text-justify text-sm underline"
+                  >
                     {cert.name}
                   </div>
                 </a>
