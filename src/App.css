@@ -1,0 +1,17 @@
+/* *{
+    margin: 0.02rem;
+    padding-top: 0.5rem;
+    padding-left: 0.3rem;
+} */
+
+.Header{
+    margin: 0.02rem;
+    padding-top: 0.5rem;
+    padding-left: 0.3rem;
+}
+
+.font {
+    font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
