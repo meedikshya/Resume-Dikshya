@@ -1,105 +1,100 @@
 {
-  "user": [
+  "profile": {
+    "name": "Dikshya Sharma",
+    "phone": "+977 9817457179",
+    "email": "dikshya.sharma.inbox@gmail.com",
+    "github": "meedikshya",
+    "linkedin": "Dikshya Sharma",
+    "summary": "Innovative, tech-savvy undergraduate with strong problem-solving skills. Known for leadership, collaboration, and excellent communication, committed to using technical expertise to create impactful solutions in dynamic environments."
+  },
+  "experience": [
     {
-      "id": 1,
-      "profile": {
-        "name": "Dikshya Sharma",
-        "phone": "+977 9817457179",
-        "email": "dikshya.sharma.inbox@gmail.com",
-        "github": "meedikshya",
-        "linkedin": "Dikshya Sharma",
-        "summary": "Innovative, tech-savvy undergraduate with strong problem-solving skills. Known for leadership, collaboration, and excellent communication, committed to using technical expertise to create impactful solutions in dynamic environments."
-      },
-      "experience": [
-        {
-          "title": "Apprentice Garage | Solution Developer",
-          "organization": "University of Victoria INSPIRE Program",
-          "location": "Apprentice Garage",
-          "date": "August 2024 – January 2025",
-          "responsibilities": [
-            "Applied advanced problem-solving skills to co-design and develop full-stack web applications using .NET and ReactJS, addressing complex challenges effectively.",
-            "Engaged in workshops on Agile Methodology and Cloud Server Management, showcasing teamwork, communication, and a proactive approach to learning and professional development."
-          ]
-        }
-      ],
-      "education": [
-        {
-          "degree": "BSc (Hons) Computing",
-          "institution": "Islington College (aff. London Metropolitan University) | Courseworks",
-          "location": "Kathmandu, Nepal",
-          "dates": "(2022-Present)"
-        },
-        {
-          "degree": "School Leaving Certificate (SLC)",
-          "institution": "Tilottama Campus (National Education Board (NEB))",
-          "location": "Butwal, Nepal",
-          "dates": "(2019-2021)"
-        },
-        {
-          "degree": "Secondary Education Examination (SEE)",
-          "institution": "Green Plant Secondary School (National Education Board (NEB))",
-          "location": "Butwal, Nepal"
-        }
-      ],
-      "projects": [
-        {
-          "name": "Movie Ticket Booking System",
-          "pLink": "https://meedikshya.github.io/Movie-Ticket-Booking/",
-          "description": "React.js for UIs, React Query for state, React Router DOM for routing. Bootstrap for styling, React Icons for icons, React Date Picker for dates. React Toastify for notifications, GitHub Pages for deployment.",
-          "github": "GitHub",
-          "gLink" : "https://github.com/meedikshya/Movie-Ticket-Booking"
-        },
-        {
-          "name": "Single Page Web Application",
-          "pLink": "https://meedikshya.github.io/single-page-webapplication/",
-          "description": "Utilized React.js for dynamic UIs, React Icons for icons, React Toastify for notifications, and SCSS for CSS preprocessing.",
-          "github": "GitHub",
-           "gLink" : "https://github.com/meedikshya/single-page-webapplication"
-        }
-      ],
+      "title": "Apprentice Garage | Solution Developer",
+      "organization": "University of Victoria INSPIRE Program",
+      "location": "Apprentice Garage",
+      "date": "August 2024 – January 2025",
+      "responsibilities": [
+        "Applied advanced problem-solving skills to co-design and develop full-stack web applications using .NET and ReactJS, addressing complex challenges effectively.",
+        "Engaged in workshops on Agile Methodology and Cloud Server Management, showcasing teamwork, communication, and a proactive approach to learning and professional development."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc (Hons) Computing",
+      "institution": "Islington College (aff. London Metropolitan University) | Courseworks",
+      "location": "Kathmandu, Nepal",
+      "dates": "(2022-Present)"
+    },
+    {
+      "degree": "School Leaving Certificate (SLC)",
+      "institution": "Tilottama Campus (National Education Board (NEB))",
+      "location": "Butwal, Nepal",
+      "dates": "(2019-2021)"
+    },
+    {
+      "degree": "Secondary Education Examination (SEE)",
+      "institution": "Green Plant Secondary School (National Education Board (NEB))",
+      "location": "Butwal, Nepal"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Movie Ticket Booking System",
+      "pLink": "https://meedikshya.github.io/Movie-Ticket-Booking/",
+      "description": "React.js for UIs, React Query for state, React Router DOM for routing. Bootstrap for styling, React Icons for icons, React Date Picker for dates. React Toastify for notifications, GitHub Pages for deployment.",
+      "github": "GitHub",
+      "gLink": "https://github.com/meedikshya/Movie-Ticket-Booking"
+    },
+    {
+      "name": "Single Page Web Application",
+      "pLink": "https://meedikshya.github.io/single-page-webapplication/",
+      "description": "Utilized React.js for dynamic UIs, React Icons for icons, React Toastify for notifications, and SCSS for CSS preprocessing.",
+      "github": "GitHub",
+      "gLink": "https://github.com/meedikshya/single-page-webapplication"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Technical Skills",
       "skills": [
         {
-          "category": "Technical Skills",
-          "skills": [
-            {
-              "type": "Programming",
-              "items": ["JavaScript", "Java", "Python (Basics)"]
-            },
-            {
-              "type": "Libraries & Frameworks",
-              "items": ["React.js", "Bootstrap", "Tailwind CSS", "Node.js (Basics)"]
-            },
-            {
-              "type": "Tools & Software",
-              "items": ["SQL", "AWS", "Git", "GitHub", "VS Code", "Eclipse IDE"]
-            },
-            {
-              "type": "Operating Systems",
-              "items": ["Linux", "Windows"]
-            }
-          ]
+          "type": "Programming",
+          "items": ["JavaScript", "Java", "Python (Basics)"]
         },
         {
-          "category": "Personal Skills",
-          "skills": [
-            {
-              "type": "Soft Skills",
-              "items": ["Teamwork", "Communication", "Adaptability", "Time Management"]
-            },
-            "Interpersonal Skills"
-          ]
-        }
-      ],
-      "certifications": [
-        {
-          "name": "AWS Machine Learning for Natural Language Processing",
-          "cLink": "https://www.credly.com/badges/cb6caf09-48cd-4c38-921f-45554553e182/linked_in_profile"
+          "type": "Libraries & Frameworks",
+          "items": ["React.js", "Bootstrap", "Tailwind CSS", "Node.js (Basics)"]
         },
         {
-          "name": "AWS Data Engineering",
-          "cLink": "https://www.credly.com/badges/4c7874ee-0247-44a1-a8ee-12e6678ad9e0/linked_in_profile"
+          "type": "Tools & Software",
+          "items": ["SQL", "AWS", "Git", "GitHub", "VS Code", "Eclipse IDE"]
+        },
+        {
+          "type": "Operating Systems",
+          "items": ["Linux", "Windows"]
         }
       ]
+    },
+    {
+      "category": "Personal Skills",
+      "skills": [
+        {
+          "type": "Soft Skills",
+          "items": ["Teamwork", "Communication", "Adaptability", "Time Management"]
+        },
+        "Interpersonal Skills"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Machine Learning for Natural Language Processing",
+      "cLink": "https://www.credly.com/badges/cb6caf09-48cd-4c38-921f-45554553e182/linked_in_profile"
+    },
+    {
+      "name": "AWS Data Engineering",
+      "cLink": "https://www.credly.com/badges/4c7874ee-0247-44a1-a8ee-12e6678ad9e0/linked_in_profile"
     }
   ]
 }

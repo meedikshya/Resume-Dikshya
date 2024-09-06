@@ -1,31 +1,58 @@
-import React from 'react';
-import { useFetchData } from '../hooks/useEffect';
+// src/components/Header.jsx
+import React from "react";
+import useFetchData from "../hooks/useFetchData";
+import { useParams } from "react-router-dom";
 
 const Header = () => {
-  const { data, loading, error } = useFetchData('http://localhost:3000/user');
+  const { id } = useParams();
+  // Accept userId as prop
+  const { data, loading, error } = useFetchData(
+    `https://localhost:7292/api/Users/${id}`
+  );
 
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error: {error.message}</p>;
 
   return (
-    <div className=''>
-      {Array.isArray(data) && data.length > 0 && data.map((item, index) => (
-        <div key={index} className='profile'>
-          <h1 className='text-4xl font-normal mt-10'>{item.profile.name}</h1>
-          <ul className='flex flex-row space-x-4 text-[0.8rem]'>
-            <li>Phone: {item.profile.phone}</li>
+    <div className="profile mt-10">
+      {data ? (
+        <>
+          <h1 className="text-4xl font-normal">{data.userName}</h1>
+          <ul className="flex flex-row space-x-4 text-[0.8rem] mt-2">
+            <li>Phone: {data.userPhone}</li>
             <li>
-              Email: <a href={`mailto:${item.profile.email}`} className='underline'>{item.profile.email}</a>
+              Email:{" "}
+              <a href={`mailto:${data.userEmail}`} className="underline">
+                {data.userEmail}
+              </a>
             </li>
             <li>
-              GitHub: <a href={`https://github.com/meedikshya/${item.profile.github}`} className='underline' target='_blank' rel='noopener noreferrer'>{item.profile.github}</a>
+              GitHub:{" "}
+              <a
+                href={`https://github.com/${data.userGithub}`}
+                className="underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {data.userGithub}
+              </a>
             </li>
             <li>
-              LinkedIn: <a href={`https://www.linkedin.com/in/dikshyasharma0405/${item.profile.linkedin}`} className='underline' target='_blank' rel='noopener noreferrer'>{item.profile.linkedin}</a>
+              LinkedIn:{" "}
+              <a
+                href={`https://www.linkedin.com/in/${data.userLinkedin}`}
+                className="underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {data.userLinkedin}
+              </a>
             </li>
           </ul>
-        </div>
-      ))}
+        </>
+      ) : (
+        <p>No profile information available.</p>
+      )}
     </div>
   );
 };

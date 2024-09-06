@@ -5,7 +5,10 @@ import Experience from "../components/Experience";
 import Education from "../components/Education";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
+// import { Skills } from "./Skills";
 import Certifications from "../components/Certifications";
+// import { TechnicalSkills } from "../components/TechnicalSkills";
+// import PersonalSkills from "../components/PersonalSkills";
 import "../App.css";
 
 export const Resume = () => {
@@ -18,6 +21,8 @@ export const Resume = () => {
           <Experience />
           <Education />
           <Projects />
+          {/* <TechnicalSkills />
+          <PersonalSkills /> */}
           <Skills />
           <Certifications />
         </div>
